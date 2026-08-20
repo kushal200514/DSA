@@ -18,7 +18,7 @@ print("Please select operation -\n"
 
 sel = int(input("Select operation(1-4):"))
 
-n1 = int(input("enter the first number:"))
+n1 = int(input("enter the first and the last number:"))
 n2 = int(input("enter the second number:"))
 
 
