@@ -32,3 +32,9 @@ elif sel == 4:
     print(n1,"/",n2,"=",div(n1,n2))
 else:
     print("Invlaid input")
+
+#def mul(n1,n2):
+#    return n1 * n2
+
+#def div(n1,n2):
+#    return n1/n2
