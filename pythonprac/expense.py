@@ -125,7 +125,7 @@ def expensive_expenses():
     print("\n====== EXPENSES ABOVE ₹200 ======")
 
     if len(expensive) == 0:
-        print("No expensive expenses found.")
+        print("No expensive expenses found in the above list.")
         return
 
     for number, expense in enumerate(expensive, start=1):
