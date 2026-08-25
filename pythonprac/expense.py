@@ -20,7 +20,7 @@ def add_expense():
     # Add tuple to list
     expenses.append(expense)
 
-    print("✅ Expense added successfully!")
+    print("✅ Expense added successfully! to the List above there")
 
 
 # ------------------------------------------
