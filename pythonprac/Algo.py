@@ -14,7 +14,7 @@ gc = 0
 
 while gc < ch:
     gc += 1
-    guess = int(input("Enter your guess:"))
+    guess = int(input("Enter your guess and make it with a best:"))
 
     if guess == num:
         print(f'correct!  The number is {num}.You guesses it in [gc] attempts.')
