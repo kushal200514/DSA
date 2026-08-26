@@ -52,7 +52,7 @@ def view_expenses():
 def total_spending():
 
     if len(expenses) == 0:
-        print("No expenses found.")
+        print("No expenses found in your entered .")
         return
 
     # map()
@@ -62,7 +62,7 @@ def total_spending():
 
     total = sum(amounts)
 
-    print(f"\nTotal Spending: ₹{total}")
+    print(f"\nTotal Spending of the above things: ₹{total}")
 
 
 # ------------------------------------------
