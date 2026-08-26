@@ -10,8 +10,8 @@ expenses = []
 # ------------------------------------------
 
 def add_expense():
-    name = input("Enter expense name: ")
-    amount = float(input("Enter amount: "))
+    name = input("Enter expense name in words: ")
+    amount = float(input("Enter amount in numbers: "))
     category = input("Enter category: ")
 
     # Tuple
