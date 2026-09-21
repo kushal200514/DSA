@@ -1,8 +1,3 @@
-# DSA
-day to daY PROBLEMS
-
-
-#commands for git push
 class Solution:
     def resultArray(self, nums, k):
         dp = [0] * k
@@ -28,7 +23,3 @@ class Solution:
                 answer[r] += dp[r]
 
         return answer
-
-git commit -m "Update repository with recent code changes"
-git push origin main
-
